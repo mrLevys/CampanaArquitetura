@@ -1,0 +1,49 @@
+.icon {
+  transition: 0.3s;
+}
+
+.icon:hover{
+  transform: scale(1.1);
+}
+
+@media (max-width: 425px) {
+  .icon img {
+    height: 28px;
+    width: 28px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .icon img {
+    height: 32px;
+    width: 32px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .icon img {
+    height: 38px;
+    width: 38px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .icon img {
+    height: 44px;
+    width: 44px;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 2560px) {
+  .icon img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .icon img {
+    height: 86px;
+    width: 86px;
+  }
+}
